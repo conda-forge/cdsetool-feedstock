@@ -1,13 +1,13 @@
 {% set name = "cdsetool" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fbba226036f1eba353f6d5c90cc65a22627c6377dd776d565ae6a3c0b841740c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3c90a7afb28b1ce7c57e32df2382412b06475a43225168e36eab0e7c740dddad
 
 build:
   noarch: python
