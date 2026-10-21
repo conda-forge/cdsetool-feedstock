@@ -1,5 +1,5 @@
 {% set name = "cdsetool" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3c90a7afb28b1ce7c57e32df2382412b06475a43225168e36eab0e7c740dddad
+  sha256: b87fde01b80f1d3c928112bb8a9d5e022a511652e81282deb19a53193a8e49d3
 
 build:
   noarch: python
